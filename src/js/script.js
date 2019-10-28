@@ -33,4 +33,6 @@
 
     toggleSlide('.catalog-item__link');
     toggleSlide('.catalog-item__back');
+
+    new WOW().init();
   });
