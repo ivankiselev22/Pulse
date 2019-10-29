@@ -2,11 +2,12 @@
 @import 'base/animations';
 * {
     font-family: 'Museo Sans Cyrl', sans-serif;
+    box-sizing: border-box;
 }
 .container {
     max-width: 950px;
     margin: 0 auto;
-    position: relative;
+    position: relative; 
 }
 @import 'blocks/promo';
 @import 'blocks/header';
@@ -19,3 +20,4 @@
 @import 'blocks/catalog';
 @import 'blocks/feedback';
 @import 'blocks/footer';
+@import 'blocks/modal';
